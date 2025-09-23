@@ -1,0 +1,22 @@
+/* DefenceGame.css */
+.game-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; /* we manage inner scroll areas instead */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000; /* optional, matches your board background */
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.game-board {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
